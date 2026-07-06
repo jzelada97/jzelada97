@@ -1,27 +1,38 @@
-```
-> jose zelada — software developer
-```
+# Jose Zelada · Software Developer
 
-42 School · AI Bootcamp · Databases L3  
-Systems · Machine Learning · Web
+> *Entender la tecnología desde sus cimientos para poder innovar en la vanguardia.*
+
+42 School Madrid &nbsp;·&nbsp; AI Bootcamp (Factoría F5) &nbsp;·&nbsp; Databases L3
 
 ---
 
-```
-currently building
-  ├── fall detection app      (Flutter · FastAPI · ML · AWS)
-  ├── housing price predictor (XGBoost · MLflow · Optuna)
-  ├── productivity app        (React Native · Expo · Supabase)
-  └── weekly meal planner     (React · TypeScript · Firebase)
+### Currently building
 
-skills
-  ├── languages   C · Python · SQL · Bash
-  ├── ml/ai       XGBoost · MLflow · Optuna · Evidently AI · LLMs
-  ├── backend     FastAPI · PostgreSQL · Firebase · Supabase · Docker
-  ├── web         React · TypeScript · Flutter · Tailwind
-  └── tools       Git · GitHub Actions · AWS · CI/CD · MLOps
+| Project | Stack |
+|---|---|
+| Fall Detection App | Flutter · FastAPI · ML · AWS |
+| Housing Price Predictor | XGBoost · MLflow · Optuna |
+| Productivity App | React Native · Expo · Supabase |
+| Weekly Meal Planner | React · TypeScript · Firebase |
 
-find me
-  ├── web   zelada.es
-  └── mail  josecarloszv97@gmail.com
-```
+---
+
+### Skills
+
+**Systems** &nbsp; `C` `Linux` `Bash` `Git`
+
+**ML / AI** &nbsp; `Python` `XGBoost` `MLflow` `Optuna` `Evidently AI` `LLMs`
+
+**Backend** &nbsp; `FastAPI` `PostgreSQL` `Firebase` `Supabase` `Docker`
+
+**Web** &nbsp; `React` `TypeScript` `Flutter` `Tailwind`
+
+**Tools** &nbsp; `GitHub Actions` `AWS` `CI/CD` `MLOps`
+
+---
+
+### Find me
+
+[![Web](https://img.shields.io/badge/zelada.es-000000?style=flat&logo=safari&logoColor=white)](https://zelada.es)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jzeladadev/)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:josecarloszv97@gmail.com)
