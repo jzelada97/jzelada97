@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 138 32" width="138" height="32">
+  <rect x="0" y="0" width="138" height="32" rx="8" ry="8" fill="#0f0f0f"/>
+
+  <!-- Z grande -->
+  <text x="8" y="24" font-family="Georgia,serif" font-size="21" font-weight="700" fill="#ffffff" letter-spacing="-1">Z</text>
+
+  <!-- <> verde -->
+  <text x="24" y="11" font-family="Georgia,serif" font-size="7" font-weight="700" fill="#39ff8a">&lt;&gt;</text>
+
+  <!-- separador -->
+  <line x1="38" y1="8" x2="38" y2="24" stroke="#333" stroke-width="1"/>
+
+  <!-- zelada.es -->
+  <text x="46" y="21" font-family="'JetBrains Mono','Courier New',monospace" font-size="13" font-weight="700" fill="#e8e8e8">zelada.es</text>
+</svg>
