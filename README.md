@@ -48,6 +48,13 @@ Weekly recipe planner with auto-generated shopping list. Filter by protein, scal
 
 ---
 
+### Stats
+
+![Jose's GitHub stats](https://github-readme-stats.vercel.app/api?username=jzelada97&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=4ade80&icon_color=4ade80&text_color=e8e8e8)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=jzelada97&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=4ade80&text_color=e8e8e8)
+
+---
+
 ### Find me
 
 <a href="mailto:josecarloszv97@gmail.com">
