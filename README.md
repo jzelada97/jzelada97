@@ -4,7 +4,7 @@
 
 **Systems / Languages**
 
-[![Systems](https://skillicons.dev/icons?i=c,bash,linux,git,python,ts)](https://skillicons.dev)
+[![Systems](https://skillicons.dev/icons?i=c,bash,linux,git,python,java,ts)](https://skillicons.dev)
 
 **ML / AI**
 
@@ -12,7 +12,7 @@
 
 **Backend**
 
-[![Backend](https://skillicons.dev/icons?i=fastapi,postgres,firebase,supabase,docker,azure)](https://skillicons.dev)
+[![Backend](https://skillicons.dev/icons?i=spring,fastapi,postgres,firebase,supabase,docker,aws,rabbitmq,grafana,prometheus&perline=5)](https://skillicons.dev)
 
 **Web**
 
@@ -22,11 +22,11 @@
 
 ### Projects
 
-**Fall Sentinel** &nbsp; ![Status](https://img.shields.io/badge/Alpha-ef4444?style=flat-square)
+**SentiLife** &nbsp; ![Status](https://img.shields.io/badge/In%20Progress-f59e0b?style=flat-square)
 
-Mobile app that detects falls using a ML model trained on the SisFall dataset (TBD). Full MLOps pipeline with CI/CD.
+Group project — fall detection platform built on an Event-Driven Architecture. I led the backend: REST APIs secured with Spring Security and JWT, async processing via Virtual Threads, RabbitMQ integration, and full observability with Prometheus, Micrometer and Grafana. Data analysis notebooks with Python and Pandas. CI/CD with GitHub Actions and deployment on AWS.
 
-`Flutter` `FastAPI` `Machine Learning` `AWS` `Docker` `GitHub Actions`
+`Java 21` `Spring Boot 3` `RabbitMQ` `PostgreSQL` `Docker` `AWS` `Prometheus` `Grafana` `Python` `GitHub Actions`
 
 **Housing Price Predictor** &nbsp; ![Status](https://img.shields.io/badge/Completed-22c55e?style=flat-square)
 
