@@ -1,5 +1,11 @@
 <img src="./assets/banner.svg" width="860" />
 
+<br>
+
+I build backend systems and ML pipelines. I break things, fix them, and deploy them on AWS. Based in Spain.
+
+---
+
 ### Skills
 
 **Systems / Languages**
@@ -45,6 +51,8 @@ Mobile productivity app with tasks, calendar, subtasks, priorities, time estimat
 Weekly recipe planner with auto-generated shopping list. Filter by protein, scale by servings.
 
 `React` `TypeScript` `Firebase`
+
+**42 School** — Low-level C projects: [push_swap](https://github.com/jzelada97/push_swap) · [pipex](https://github.com/jzelada97/pipex) · [minitalk](https://github.com/jzelada97/minitalk) · [so_long](https://github.com/jzelada97/so_long)
 
 ---
 

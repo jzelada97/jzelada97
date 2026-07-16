@@ -1,18 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 200" width="860" height="200">
+  <style>
+    .text-main { fill: #ffffff; }
+    .text-accent { fill: #39ff8a; }
+    .separator { stroke: #333; }
+
+    @media (prefers-color-scheme: light) {
+      .text-main { fill: #1a1a1a; }
+      .text-accent { fill: #0e7a3d; }
+      .separator { stroke: #ccc; }
+    }
+  </style>
+
   <rect width="860" height="200" fill="transparent"/>
 
   <!-- Z grande en Georgia -->
-  <text x="20" y="150" font-family="Georgia,serif" font-size="140" font-weight="700" fill="#ffffff" letter-spacing="-8">Z</text>
+  <text x="20" y="150" font-family="Georgia,serif" font-size="140" font-weight="700" class="text-main" letter-spacing="-8">Z</text>
 
   <!-- <> verde -->
-  <text x="118" y="60" font-family="'JetBrains Mono','Courier New',monospace" font-size="28" font-weight="700" fill="#39ff8a">&lt;&gt;</text>
+  <text x="118" y="60" font-family="'JetBrains Mono','Courier New',monospace" font-size="28" font-weight="700" class="text-accent">&lt;&gt;</text>
 
   <!-- separador vertical -->
-  <line x1="166" y1="50" x2="166" y2="155" stroke="#333" stroke-width="1.5"/>
+  <line x1="166" y1="50" x2="166" y2="155" class="separator" stroke-width="1.5"/>
 
   <!-- Jose Zelada -->
-  <text x="190" y="115" font-family="'JetBrains Mono','Courier New',monospace" font-size="76" font-weight="700" fill="#ffffff">Jose Zelada</text>
+  <text x="190" y="115" font-family="'JetBrains Mono','Courier New',monospace" font-size="76" font-weight="700" class="text-main">Jose Zelada</text>
 
   <!-- SOFTWARE DEVELOPER -->
-  <text x="194" y="152" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" fill="#39ff8a" letter-spacing="6">SOFTWARE DEVELOPER</text>
+  <text x="194" y="152" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" class="text-accent" letter-spacing="6">SOFTWARE DEVELOPER</text>
 </svg>
