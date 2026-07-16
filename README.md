@@ -56,7 +56,7 @@ Weekly recipe planner with auto-generated shopping list. Filter by protein, scal
 
 `React` `TypeScript` `Firebase`
 
-**42 School** — Low-level C projects: [push_swap](https://github.com/jzelada97/push_swap) · [pipex](https://github.com/jzelada97/pipex) · [minitalk](https://github.com/jzelada97/minitalk) · [so_long](https://github.com/jzelada97/so_long)
+**42 School** — Low-level C projects: [push_swap](https://github.com/jzelada97/push_swap) · [so_long](https://github.com/jzelada97/so_long) · [pipex](https://github.com/jzelada97/pipex) · [minitalk](https://github.com/jzelada97/minitalk) · [ft_printf](https://github.com/jzelada97/ft_printf) · [get_next_line](https://github.com/jzelada97/get_next_line) · [libft](https://github.com/jzelada97/libft)
 
 ---
 
