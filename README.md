@@ -1,4 +1,8 @@
-<img src="./assets/banner.svg" width="860" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg">
+  <img src="./assets/banner.svg" width="860" />
+</picture>
 
 <br>
 
