@@ -32,7 +32,7 @@ I build backend systems and ML pipelines. I break things, fix them, and deploy t
 
 ### Projects
 
-**SentiLife** &nbsp; ![Status](https://img.shields.io/badge/In%20Progress-f59e0b?style=flat-square)
+**[SentiLife](https://github.com/jzelada97/SentiLife)** &nbsp; ![Status](https://img.shields.io/badge/In%20Progress-f59e0b?style=flat-square)
 
 Group project — fall detection platform built on an Event-Driven Architecture. I led the backend: REST APIs secured with Spring Security and JWT, async processing via Virtual Threads, RabbitMQ integration, and full observability with Prometheus, Micrometer and Grafana. Data analysis notebooks with Python and Pandas. CI/CD with GitHub Actions and deployment on AWS.
 
