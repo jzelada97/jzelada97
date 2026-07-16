@@ -38,7 +38,7 @@ Group project — fall detection platform built on an Event-Driven Architecture.
 
 `Java 21` `Spring Boot 3` `RabbitMQ` `PostgreSQL` `Docker` `AWS` `Prometheus` `Grafana` `Python` `GitHub Actions`
 
-**Housing Price Predictor** &nbsp; ![Status](https://img.shields.io/badge/Completed-22c55e?style=flat-square)
+**[Housing Price Predictor](https://github.com/jzelada97/housing-price-predictor)** &nbsp; ![Status](https://img.shields.io/badge/Completed-22c55e?style=flat-square)
 
 Housing price prediction in Madrid using XGBoost with a full MLOps pipeline deployed on Render.
 
