@@ -6,11 +6,15 @@
 
 <br>
 
-I build backend systems and ML pipelines. I orchestrate AI agents, break things, fix them, and deploy them on AWS — using Spec-Driven Development, Harness Engineering, and RAG pipelines to ship faster without losing control. Based in Spain.
+I build backend systems, ML pipelines, and the harnesses that make AI agents actually useful. I spec it, ship it, break it, fix it — then let the agents handle the rest. Based in Spain.
 
 ---
 
 ### Skills
+
+**AI Tooling / Workflow**
+
+`Spec-Driven Development` `Harness Engineering` `MCP (Model Context Protocol)` `RAG Pipelines` `Agentic Coding`
 
 **Systems / Languages**
 
@@ -19,10 +23,6 @@ I build backend systems and ML pipelines. I orchestrate AI agents, break things,
 **ML / AI**
 
 `XGBoost` `MLflow` `Optuna` `Evidently AI` `LLMs`
-
-**AI Tooling / Workflow**
-
-`Spec-Driven Development` `Harness Engineering` `MCP (Model Context Protocol)` `RAG Pipelines` `Agentic Coding`
 
 **Backend**
 
@@ -36,37 +36,27 @@ I build backend systems and ML pipelines. I orchestrate AI agents, break things,
 
 ### Projects
 
-**[SentiLife](https://github.com/jzelada97/SentiLife)** &nbsp; ![Status](https://img.shields.io/badge/In%20Progress-f59e0b?style=flat-square)
+**Productivity App** &nbsp; ![Status](https://img.shields.io/badge/In%20Progress-f59e0b?style=flat-square)
 
-Group project — fall detection platform built on an Event-Driven Architecture using Spec-Driven Development. I led the backend: REST APIs secured with Spring Security and JWT, async processing via Virtual Threads, RabbitMQ integration, and full observability with Prometheus, Micrometer and Grafana. Data analysis notebooks with Python and Pandas. CI/CD with GitHub Actions and deployment on AWS.
+Most productivity tools overwhelm instead of help — too many features, too much friction. Building my own from scratch: offline-first mobile app with local SQLite and delta sync, a Spring Boot backend handling auth, encrypted vault, and gamification, plus a web dashboard for analytics. Validated a RAG integration through a POC benchmark, then built it into the app for context-aware AI assistance. Full CI/CD with Testcontainers, Maestro E2E, and Playwright.
+
+`Java 21` `Spring Boot 3` `PostgreSQL` `Redis` `Docker` `React Native` `Expo` `TypeScript` `React` `Vite` `RAG`
+
+**[SentiLife](https://github.com/jzelada97/SentiLife)** &nbsp; ![Status](https://img.shields.io/badge/Completed-22c55e?style=flat-square)
+
+Elderly people fall and no one knows for hours — we fixed that. Event-Driven platform that detects falls in real time. I led the backend using Spec-Driven Development: designed the specs, let agents generate the scaffolding, then built the real logic — REST APIs with Spring Security + JWT, async Virtual Threads, RabbitMQ messaging, and full observability (Prometheus + Grafana). Deployed on AWS with CI/CD via GitHub Actions.
 
 `Java 21` `Spring Boot 3` `RabbitMQ` `PostgreSQL` `Docker` `AWS` `Prometheus` `Grafana` `Python` `GitHub Actions` `SDD`
 
 **[Housing Price Predictor](https://github.com/jzelada97/housing-price-predictor)** &nbsp; ![Status](https://img.shields.io/badge/Completed-22c55e?style=flat-square)
 
-Housing price prediction in Madrid using XGBoost with a full MLOps pipeline deployed on Render.
+Madrid housing prices are opaque — listings don't reflect real market value. Built an XGBoost model with a full MLOps pipeline: automated hyperparameter tuning with Optuna, experiment tracking in MLflow, data drift monitoring with Evidently AI, and one-click deployment on Render.
 
 `Python` `XGBoost` `MLflow` `Optuna` `Evidently AI`
 
-**Productivity App** &nbsp; ![Status](https://img.shields.io/badge/In%20Progress-f59e0b?style=flat-square)
-
-Personal productivity app — offline-first, monorepo architecture. Spring Boot 3 backend with JWT auth, PostgreSQL, Redis, and encrypted vault (MinIO/S3). Expo/React Native mobile app with local SQLite, delta sync, habits, focus timer, gamification, and biometric vault. Web analytics dashboard with React, Vite, and Recharts. Includes a RAG proof-of-concept that benchmarks retrieval efficiency to determine viability before full integration. Full CI/CD with GitHub Actions, Testcontainers, Maestro E2E, and Playwright.
-
-`Java 21` `Spring Boot 3` `PostgreSQL` `Redis` `Docker` `React Native` `Expo` `TypeScript` `React` `Vite` `RAG`
-
-**Weekly Meal Planner** &nbsp; ![Status](https://img.shields.io/badge/Beta-818cf8?style=flat-square)
-
-Weekly recipe planner with auto-generated shopping list. Filter by protein, scale by servings.
-
-`React` `TypeScript` `Firebase`
-
-**[Python Modules](https://github.com/jzelada97/ModulosPython)** &nbsp; ![Status](https://img.shields.io/badge/Completed-22c55e?style=flat-square)
-
-11 progressive modules covering Python fundamentals through advanced patterns: OOP, exceptions, collections, file I/O, abstract classes, design patterns, virtual environments, Pydantic v2, and functional programming.
-
-`Python` `Pydantic` `NumPy` `Pandas` `Matplotlib`
-
 **42 School** — Low-level C projects: [push_swap](https://github.com/jzelada97/push_swap) · [so_long](https://github.com/jzelada97/so_long) · [pipex](https://github.com/jzelada97/pipex) · [minitalk](https://github.com/jzelada97/minitalk) · [ft_printf](https://github.com/jzelada97/ft_printf) · [get_next_line](https://github.com/jzelada97/get_next_line) · [libft](https://github.com/jzelada97/libft)
+
+**42 School** — Python: [Python Modules](https://github.com/jzelada97/ModulosPython) — 11 progressive modules from OOP to design patterns, Pydantic v2, and functional programming.
 
 ---
 
