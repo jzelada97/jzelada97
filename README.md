@@ -6,7 +6,7 @@
 
 <br>
 
-I build backend systems and ML pipelines. I break things, fix them, and deploy them on AWS. Based in Spain.
+I build backend systems and ML pipelines. I orchestrate AI agents, break things, fix them, and deploy them on AWS — using Spec-Driven Development, Harness Engineering, and RAG pipelines to ship faster without losing control. Based in Spain.
 
 ---
 
@@ -19,6 +19,10 @@ I build backend systems and ML pipelines. I break things, fix them, and deploy t
 **ML / AI**
 
 `XGBoost` `MLflow` `Optuna` `Evidently AI` `LLMs`
+
+**AI Tooling / Workflow**
+
+`Spec-Driven Development` `Harness Engineering` `MCP (Model Context Protocol)` `RAG Pipelines` `Agentic Coding`
 
 **Backend**
 
@@ -34,9 +38,9 @@ I build backend systems and ML pipelines. I break things, fix them, and deploy t
 
 **[SentiLife](https://github.com/jzelada97/SentiLife)** &nbsp; ![Status](https://img.shields.io/badge/In%20Progress-f59e0b?style=flat-square)
 
-Group project — fall detection platform built on an Event-Driven Architecture. I led the backend: REST APIs secured with Spring Security and JWT, async processing via Virtual Threads, RabbitMQ integration, and full observability with Prometheus, Micrometer and Grafana. Data analysis notebooks with Python and Pandas. CI/CD with GitHub Actions and deployment on AWS.
+Group project — fall detection platform built on an Event-Driven Architecture using Spec-Driven Development. I led the backend: REST APIs secured with Spring Security and JWT, async processing via Virtual Threads, RabbitMQ integration, and full observability with Prometheus, Micrometer and Grafana. Data analysis notebooks with Python and Pandas. CI/CD with GitHub Actions and deployment on AWS.
 
-`Java 21` `Spring Boot 3` `RabbitMQ` `PostgreSQL` `Docker` `AWS` `Prometheus` `Grafana` `Python` `GitHub Actions`
+`Java 21` `Spring Boot 3` `RabbitMQ` `PostgreSQL` `Docker` `AWS` `Prometheus` `Grafana` `Python` `GitHub Actions` `SDD`
 
 **[Housing Price Predictor](https://github.com/jzelada97/housing-price-predictor)** &nbsp; ![Status](https://img.shields.io/badge/Completed-22c55e?style=flat-square)
 
@@ -46,15 +50,21 @@ Housing price prediction in Madrid using XGBoost with a full MLOps pipeline depl
 
 **Productivity App** &nbsp; ![Status](https://img.shields.io/badge/In%20Progress-f59e0b?style=flat-square)
 
-Mobile productivity app with tasks, calendar, subtasks, priorities, time estimates and notifications.
+Personal productivity app — offline-first, monorepo architecture. Spring Boot 3 backend with JWT auth, PostgreSQL, Redis, and encrypted vault (MinIO/S3). Expo/React Native mobile app with local SQLite, delta sync, habits, focus timer, gamification, and biometric vault. Web analytics dashboard with React, Vite, and Recharts. Includes a RAG proof-of-concept that benchmarks retrieval efficiency to determine viability before full integration. Full CI/CD with GitHub Actions, Testcontainers, Maestro E2E, and Playwright.
 
-`React Native` `Expo` `Supabase` `TypeScript`
+`Java 21` `Spring Boot 3` `PostgreSQL` `Redis` `Docker` `React Native` `Expo` `TypeScript` `React` `Vite` `RAG`
 
 **Weekly Meal Planner** &nbsp; ![Status](https://img.shields.io/badge/Beta-818cf8?style=flat-square)
 
 Weekly recipe planner with auto-generated shopping list. Filter by protein, scale by servings.
 
 `React` `TypeScript` `Firebase`
+
+**[Python Modules](https://github.com/jzelada97/ModulosPython)** &nbsp; ![Status](https://img.shields.io/badge/Completed-22c55e?style=flat-square)
+
+11 progressive modules covering Python fundamentals through advanced patterns: OOP, exceptions, collections, file I/O, abstract classes, design patterns, virtual environments, Pydantic v2, and functional programming.
+
+`Python` `Pydantic` `NumPy` `Pandas` `Matplotlib`
 
 **42 School** — Low-level C projects: [push_swap](https://github.com/jzelada97/push_swap) · [so_long](https://github.com/jzelada97/so_long) · [pipex](https://github.com/jzelada97/pipex) · [minitalk](https://github.com/jzelada97/minitalk) · [ft_printf](https://github.com/jzelada97/ft_printf) · [get_next_line](https://github.com/jzelada97/get_next_line) · [libft](https://github.com/jzelada97/libft)
 
