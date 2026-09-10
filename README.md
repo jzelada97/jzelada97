@@ -22,11 +22,11 @@ I build backend systems, ML pipelines, and the harnesses that make AI agents act
 
 **ML / AI**
 
-`XGBoost` `MLflow` `Optuna` `Evidently AI` `LLMs`
+`XGBoost` `scikit-learn` `MLflow` `Optuna` `Evidently AI` `LLMs` `LLM tool-calling`
 
 **Backend**
 
-[![Backend](https://skillicons.dev/icons?i=spring,fastapi,postgres,firebase,supabase,docker,aws,rabbitmq,grafana,prometheus&perline=5)](https://skillicons.dev)
+[![Backend](https://skillicons.dev/icons?i=spring,fastapi,postgres,mongodb,redis,kafka,docker,aws,rabbitmq,prometheus,grafana,supabase,firebase&perline=7)](https://skillicons.dev)
 
 **Web**
 
@@ -35,6 +35,18 @@ I build backend systems, ML pipelines, and the harnesses that make AI agents act
 ---
 
 ### Projects
+
+**[A-Maze-ing](https://github.com/jzelada97/a-maze-ing)** &nbsp; ![Status](https://img.shields.io/badge/Completed-22c55e?style=flat-square) &nbsp; [**Play it**](https://maze.zelada.es)
+
+A maze generator that you can also walk through. Two kinds of board come out of one pipeline, chosen by a single config key: a *perfect* maze — a spanning tree, exactly one route between any two cells — or a braided Pac-Man board with no dead ends at all. Algorithms are pluggable through a Strategy registry, and the generator ships as an installable wheel that depends on nothing else in the repo. The web layer on top is deliberately a *neighbour* of the graded project, not an extension of it: the engine gains no FastAPI import and the quality gate never runs a line of it. FastAPI with SSE streaming, a canvas you steer with the arrow keys, and a chat with tool-calling that drives the whole thing in plain language. 300+ tests behind one `make qa`.
+
+`Python 3.12` `FastAPI` `SSE` `Pydantic` `pytest` `mypy --strict` `LLM tool-calling` `Docker`
+
+**[HR Insights ETL](https://github.com/jzelada97/hr-insights-etl)** &nbsp; ![Status](https://img.shields.io/badge/Completed-22c55e?style=flat-square)
+
+Kafka emits fragments of a person — personal, banking, location, professional — and not one of them carries an ID. This rebuilds the whole record on the other side. Medallion architecture: MongoDB keeps the raw message untouched (Bronze), Redis buffers fragments by match key with a TTL, PostgreSQL holds the consolidated record (Gold). The real work is the reconciliation engine — priority matching on passport, then normalised name, then address, with a fuzzy rule that demands corroboration, because without it two namesakes merge into a person who does not exist. Rewrote the exact-name pass from an O(n²) self-join into set operations to make it finish at all. 92% of the code is mine.
+
+`Python` `Kafka` `MongoDB` `Redis` `PostgreSQL 16` `SQLAlchemy 2` `Pydantic 2` `FastAPI` `Streamlit` `Prometheus` `Docker Compose`
 
 **Productivity App** &nbsp; ![Status](https://img.shields.io/badge/In%20Progress-f59e0b?style=flat-square)
 
@@ -47,6 +59,12 @@ Most productivity tools overwhelm instead of help — too many features, too muc
 Elderly people fall and no one knows for hours — we fixed that. Event-Driven platform that detects falls in real time. I led the backend using Spec-Driven Development: designed the specs, let agents generate the scaffolding, then built the real logic — REST APIs with Spring Security + JWT, async Virtual Threads, RabbitMQ messaging, and full observability (Prometheus + Grafana). Deployed on AWS with CI/CD via GitHub Actions.
 
 `Java 21` `Spring Boot 3` `RabbitMQ` `PostgreSQL` `Docker` `AWS` `Prometheus` `Grafana` `Python` `GitHub Actions` `SDD`
+
+**[ClaimVox](https://github.com/jzelada97/claimvox)** &nbsp; ![Status](https://img.shields.io/badge/Team%20project-6366f1?style=flat-square)
+
+Multiclass classification of written financial complaints (CFPB, 1.9M rows) into eleven product families, where the model proposes and a person always decides — human review is mandatory even when confidence is high. My slice was the backend: the FastAPI foundation, JWT auth, Docker packaging, feedback persistence in PostgreSQL under least privilege, and the AWS deploy.
+
+`Python` `FastAPI` `scikit-learn` `PostgreSQL` `Docker` `AWS` `JWT`
 
 **[Housing Price Predictor](https://github.com/jzelada97/housing-price-predictor)** &nbsp; ![Status](https://img.shields.io/badge/Completed-22c55e?style=flat-square)
 
