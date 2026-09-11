@@ -38,15 +38,15 @@ I build backend systems, ML pipelines, and the harnesses that make AI agents act
 
 **[Konjo](https://konjo.com.es)** &nbsp; ![Status](https://img.shields.io/badge/In%20Progress-f59e0b?style=flat-square) &nbsp; *Coming soon to Google Play*
 
-Designed for attention that lives between notifications, infinite scroll and fifteen-second videos. Productivity apps answer that with more noise: endless lists, every feature on day one, streaks that punish a missed day. Konjo does the opposite. Calm by default, features that appear when they are needed, gentle prompts when you stall, and a Momentum Mode that splits each task into micro-steps so starting stops being the hard part. It works offline and syncs when it can.
+For people who want to be more efficient and better organised, but with constant notifications and stimulation around them never find a tool that works for them. Konjo brings tasks, habits and a focus timer into one app, and adds help where it is hardest: Momentum Mode breaks a big task into small steps, the app asks why you postpone a task and, the third time, shows you the pattern, and it tells you the time of day you focus best. Streaks are honest: miss a day and they reset. Works offline.
 
 <details>
 <summary><b>Learn more</b> — how it is built</summary>
 
-- **Offline-first.** SQLite on the phone is the source of truth and nothing in the UI waits on the network. Delta sync of 15 entity types to a Spring Boot backend (Java 21, PostgreSQL 17, Redis), resolved last-write-wins.
-- **Domain.** XP as an immutable event ledger, 70 tiered achievements, health data correlated with productivity, and 19 versioned Flyway migrations.
-- **Process.** The architecture and the decisions are mine; agents support me inside a seven-stage pipeline — architecture, OWASP threat modeling, development, weighted scoring, build and QA — where the score decides whether a change moves on or goes back. The backend build fails below 80% line coverage, and a hook keeps the agents out of the signing keystore.
-- **RAG over MCP.** My own FAISS index of 33 spec documents, served to the agents through an MCP server and rebuilt whenever a spec changes, so they get the relevant passage instead of the whole spec. In its benchmark it hit 15 of 15 queries with 72% fewer tokens.
+- **Offline-first.** Data lives in a SQLite database on the phone and the app never waits on the network. Sync is incremental — only the changes since the last sync are sent — against a Spring Boot backend with Java 21, PostgreSQL and Redis; if two changes conflict, the most recent one wins.
+- **Domain.** XP is not a counter that gets overwritten but an append-only log of events, so the total always adds up and can be audited. On top of it sit 70 tiered achievements, and sleep, steps and heart rate are correlated with productivity.
+- **Process.** The architecture and the decisions are mine; agents support me inside a seven-stage pipeline. Before any code is written, each change goes through design and a security review — what could go wrong and how to prevent it, checked against the OWASP Top 10 — and afterwards a weighted score decides whether it moves on or goes back. The backend build fails below 80% line coverage, and a hook stops the agents from accessing sensitive data.
+- **RAG over MCP.** My own FAISS index of the 33 spec documents, served to the agents through an MCP server and rebuilt when one changes, so they look up the relevant passage instead of loading a whole spec. In its benchmark it hit 15 of 15 queries with 72% fewer tokens.
 
 </details>
 
