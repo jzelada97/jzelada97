@@ -38,7 +38,7 @@ I build backend systems, ML pipelines, and the harnesses that make AI agents act
 
 **[Konjo](https://konjo.com.es)** &nbsp; ![Status](https://img.shields.io/badge/In%20Progress-f59e0b?style=flat-square) &nbsp; *Coming soon to Google Play*
 
-For people who want to be more efficient and better organised, but with constant notifications and stimulation around them never find a tool that works for them. Konjo brings tasks, habits and a focus timer into one app, and adds help where it is hardest: Momentum Mode breaks a big task into small steps, the app asks why you postpone a task and, the third time, shows you the pattern, and it tells you the time of day you focus best. Streaks are honest: miss a day and they reset. Works offline.
+Konjo started from a real problem: wanting to get more done and stay organised, and not finding a tool that works in a day full of notifications and distractions. Many productivity apps respond with more lists, more alerts and more settings, exactly when what is missing is focus. Konjo takes the opposite approach: it helps you decide what to do next, start without friction and keep going over time, without relying on willpower that your surroundings wear down. We want your attention back on what actually matters to you.
 
 <details>
 <summary><b>Learn more</b> — how it is built</summary>
