@@ -36,23 +36,23 @@ I build backend systems, ML pipelines, and the harnesses that make AI agents act
 
 ### Projects
 
+**[Konjo](https://konjo.com.es)** &nbsp; ![Status](https://img.shields.io/badge/In%20Progress-f59e0b?style=flat-square) &nbsp; *Coming soon to Google Play*
+
+Productivity apps are built for neurotypical brains: they punish a missed day, show every feature on first launch, and turn streaks into guilt. Konjo (根性, *quiet determination*) is designed around ADHD instead — calm by default, features that appear when you need them, gentle rescue prompts when you're stuck, and a Momentum Mode that splits a task into micro-steps you take one at a time. Offline-first: SQLite on the phone is the source of truth, with throttled delta sync of 14 entity types to a Spring Boot backend and a conflict log kept on the device. Event-sourced XP with 69 achievements, health data correlated with a productivity score, Flyway migrations V1–V18, and CI/CD shipping an arm64 image to Oracle Cloud. Built with Spec-Driven Development, plus a RAG over the project's 240K tokens of specs that I serve to the coding agent through an MCP server — 72% fewer tokens than loading the right spec, 15/15 retrieval hits.
+
+`Java 21` `Spring Boot 3.5` `PostgreSQL 17` `Redis` `Flyway` `React Native` `Expo` `TypeScript` `SQLite` `React` `Vite` `Testcontainers` `RAG` `MCP`
+
 **[A-Maze-ing](https://github.com/jzelada97/a-maze-ing)** &nbsp; ![Status](https://img.shields.io/badge/Completed-22c55e?style=flat-square) &nbsp; [**Play it**](https://maze.zelada.es)
 
 A maze generator that you can also walk through. Two kinds of board come out of one pipeline, chosen by a single config key: a *perfect* maze — a spanning tree, exactly one route between any two cells — or a braided Pac-Man board with no dead ends at all. Algorithms are pluggable through a Strategy registry, and the generator ships as an installable wheel that depends on nothing else in the repo. The web layer on top is deliberately a *neighbour* of the graded project, not an extension of it: the engine gains no FastAPI import and the quality gate never runs a line of it. FastAPI with SSE streaming, a canvas you steer with the arrow keys, and a chat with tool-calling that drives the whole thing in plain language. 300+ tests behind one `make qa`.
 
 `Python 3.12` `FastAPI` `SSE` `Pydantic` `pytest` `mypy --strict` `LLM tool-calling` `Docker`
 
-**[HR Insights ETL](https://github.com/jzelada97/hr-insights-etl)** &nbsp; ![Status](https://img.shields.io/badge/Completed-22c55e?style=flat-square)
+**[HR Insights ETL](https://github.com/jzelada97/hr-insights-etl)** &nbsp; ![Status](https://img.shields.io/badge/Completed-22c55e?style=flat-square) &nbsp; [**Try it**](https://hr.zelada.es)
 
 Kafka emits fragments of a person — personal, banking, location, professional — and not one of them carries an ID. This rebuilds the whole record on the other side. Medallion architecture: MongoDB keeps the raw message untouched (Bronze), Redis buffers fragments by match key with a TTL, PostgreSQL holds the consolidated record (Gold). The real work is the reconciliation engine — priority matching on passport, then normalised name, then address, with a fuzzy rule that demands corroboration, because without it two namesakes merge into a person who does not exist. Rewrote the exact-name pass from an O(n²) self-join into set operations to make it finish at all. 92% of the code is mine.
 
 `Python` `Kafka` `MongoDB` `Redis` `PostgreSQL 16` `SQLAlchemy 2` `Pydantic 2` `FastAPI` `Streamlit` `Prometheus` `Docker Compose`
-
-**Productivity App** &nbsp; ![Status](https://img.shields.io/badge/In%20Progress-f59e0b?style=flat-square)
-
-Most productivity tools overwhelm instead of help — too many features, too much friction. Building my own from scratch: offline-first mobile app with local SQLite and delta sync, a Spring Boot backend handling auth, encrypted vault, and gamification, plus a web dashboard for analytics. Validated a RAG integration through a POC benchmark, then built it into the app for context-aware AI assistance. Full CI/CD with Testcontainers, Maestro E2E, and Playwright.
-
-`Java 21` `Spring Boot 3` `PostgreSQL` `Redis` `Docker` `React Native` `Expo` `TypeScript` `React` `Vite` `RAG`
 
 **[SentiLife](https://github.com/jzelada97/SentiLife)** &nbsp; ![Status](https://img.shields.io/badge/Completed-22c55e?style=flat-square)
 
