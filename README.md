@@ -38,7 +38,17 @@ I build backend systems, ML pipelines, and the harnesses that make AI agents act
 
 **[Konjo](https://konjo.com.es)** &nbsp; ![Status](https://img.shields.io/badge/In%20Progress-f59e0b?style=flat-square) &nbsp; *Coming soon to Google Play*
 
-Designed for attention that lives between notifications, infinite scroll and fifteen-second videos. Productivity apps answer that with more noise — endless lists, every feature on day one, streaks that punish a missed day. Konjo does the opposite: calm by default, features that surface when they are needed, gentle prompts when you stall, and a Momentum Mode that splits each task into micro-steps you take one at a time. Offline-first: SQLite on the phone is the source of truth, with delta sync of 15 entity types to a Spring Boot backend, event-sourced XP with 70 achievements, and Flyway migrations V1–V18. Built with an agentic workflow on a seven-stage pipeline — prompt enrichment, architecture, OWASP threat modeling, development, weighted scoring, build, QA — where the score decides whether code moves on or goes back for rework, QA holds an 80% coverage floor, and hooks stop the agents from touching the release keystore. The agents read the specs through my own RAG served over MCP: a FAISS index of 33 documents (679 chunks) that rebuilds itself whenever a spec changes, and hit 15 of 15 benchmark queries with 72% fewer tokens than loading the right spec.
+Designed for attention that lives between notifications, infinite scroll and fifteen-second videos. Productivity apps answer that with more noise: endless lists, every feature on day one, streaks that punish a missed day. Konjo does the opposite. Calm by default, features that appear when they are needed, gentle prompts when you stall, and a Momentum Mode that splits each task into micro-steps so starting stops being the hard part. It works offline and syncs when it can.
+
+<details>
+<summary><b>Learn more</b> — how it is built</summary>
+
+- **Offline-first.** SQLite on the phone is the source of truth and nothing in the UI waits on the network. Delta sync of 15 entity types to a Spring Boot backend (Java 21, PostgreSQL 17, Redis), resolved last-write-wins.
+- **Domain.** XP as an immutable event ledger, 70 tiered achievements, health data correlated with productivity, and 19 versioned Flyway migrations.
+- **Process.** The architecture and the decisions are mine; agents support me inside a seven-stage pipeline — architecture, OWASP threat modeling, development, weighted scoring, build and QA — where the score decides whether a change moves on or goes back. The backend build fails below 80% line coverage, and a hook keeps the agents out of the signing keystore.
+- **RAG over MCP.** My own FAISS index of 33 spec documents, served to the agents through an MCP server and rebuilt whenever a spec changes, so they get the relevant passage instead of the whole spec. In its benchmark it hit 15 of 15 queries with 72% fewer tokens.
+
+</details>
 
 `Java 21` `Spring Boot 3.5` `PostgreSQL 17` `Redis` `Flyway` `React Native` `Expo` `TypeScript` `SQLite` `React` `Vite` `Testcontainers` `RAG` `FAISS` `MCP`
 
